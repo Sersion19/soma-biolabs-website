@@ -64,19 +64,19 @@
     <circle cx="8" cy="8" r="4" fill="none" stroke="#3A5A20" stroke-width="1.2"/>
     <circle cx="12.5" cy="3.5" r="1.2" fill="#3A5A20"/>
   </g>
-  <text x="322" y="545" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="13" fill="#3A5A20">@somabiolabs</text>
+  <text x="322" y="545" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="13" letter-spacing="1" fill="#3A5A20">@somabiolabs</text>
   
-  <!-- X icon -->
+  <!-- X icon (proper 𝕏 logo) -->
   <g transform="translate(460, 529)">
-    <path d="M0 0L6.5 8.5M2 14L9 6.5M14 0L7.5 7.5M12 14L5.5 5.5" fill="none" stroke="#3A5A20" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M0 0L5.8 7.8L0.2 14H1.8L6.6 8.8L10.5 14H15L8.9 5.7L14.2 0H12.6L8.1 4.7L4.5 0H0ZM2.5 1H4L12.5 13H11L2.5 1Z" fill="#3A5A20" transform="scale(1.05)"/>
   </g>
-  <text x="480" y="545" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="13" fill="#3A5A20">@somabiolabs</text>
+  <text x="480" y="545" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="13" letter-spacing="1" fill="#3A5A20">@somabiolabs</text>
   
   <!-- TikTok icon -->
   <g transform="translate(618, 528)">
     <path d="M9 0v11a3.5 3.5 0 1 1-2.5-3.35V5A6 6 0 1 0 12 11V5.5a5 5 0 0 0 3 1V4a3 3 0 0 1-3-3H9z" fill="#3A5A20" transform="scale(0.9)"/>
   </g>
-  <text x="636" y="545" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="13" fill="#3A5A20">@somabiolabs</text>
+  <text x="636" y="545" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="13" letter-spacing="1" fill="#3A5A20">@somabiolabs</text>
   
   <!-- Right side — trust badges list -->
   <text x="1050" y="52" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="11" letter-spacing="3" fill="#5A7A3A" text-transform="uppercase">SOMA BIOLABS</text>
