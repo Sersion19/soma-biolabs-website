@@ -1,79 +1,82 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2600" viewBox="0 0 2400 2600">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0B1A0E"/>
-      <stop offset="100%" style="stop-color:#0D200F"/>
-    </linearGradient>
-  </defs>
   
-  <!-- Background -->
-  <rect width="2400" height="2600" fill="url(#bg)"/>
+  <!-- BAND 1: Top accent strip -->
+  <rect x="0" y="0" width="2400" height="8" fill="#B8E550"/>
   
-  <!-- Accent line top -->
-  <rect x="0" y="0" width="2400" height="6" fill="#B8E550" opacity="0.6"/>
+  <!-- BAND 2: Logo bar — slightly lighter bg -->
+  <rect x="0" y="8" width="2400" height="280" fill="#0D200F"/>
   
-  <!-- Logo icon — centered -->
-  <g transform="translate(1120, 200) scale(0.9)">
+  <!-- Logo icon centered -->
+  <g transform="translate(1120, 130) scale(0.85)">
     <rect x="-68" y="-80" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(-15 -42 -35)"/>
     <rect x="16" y="-80" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(15 42 -35)"/>
     <rect x="-68" y="0" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(-15 -42 45)"/>
     <rect x="16" y="0" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(15 42 45)"/>
   </g>
   
-  <!-- SOMA BIOLABS — centered below icon -->
-  <text x="1200" y="340" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="72" letter-spacing="16" fill="#B8E550" text-anchor="middle">SOMA</text>
-  <text x="1200" y="390" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="32" letter-spacing="14" fill="#5A7A3A" text-anchor="middle">BIOLABS</text>
+  <text x="1200" y="235" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="80" letter-spacing="18" fill="#B8E550" text-anchor="middle">SOMA</text>
+  <text x="1200" y="278" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="36" letter-spacing="16" fill="#5A7A3A" text-anchor="middle">BIOLABS</text>
   
-  <!-- Divider -->
-  <rect x="200" y="450" width="2000" height="1" fill="#1A3A1F"/>
+  <!-- BAND 3: Main product area — darkest -->
+  <rect x="0" y="288" width="2400" height="1050" fill="#0B1A0E"/>
   
-  <!-- Product Name — massive centered -->
-  <text x="1200" y="820" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="260" letter-spacing="6" fill="#F2F0EA" text-anchor="middle">BPC-157</text>
+  <!-- Product Name -->
+  <text x="1200" y="680" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="300" letter-spacing="8" fill="#F2F0EA" text-anchor="middle">BPC-157</text>
   
-  <!-- Dosage — big -->
-  <text x="1200" y="1040" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="140" fill="#B8E550" text-anchor="middle">10mg</text>
+  <!-- Dosage -->
+  <text x="1200" y="940" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="180" fill="#B8E550" text-anchor="middle">10mg</text>
   
   <!-- Lyophilized -->
-  <text x="1200" y="1140" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="64" fill="#5A7A3A" text-anchor="middle">Lyophilized Powder</text>
+  <text x="1200" y="1080" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="80" fill="#5A7A3A" text-anchor="middle">Lyophilized Powder</text>
   
-  <!-- Divider -->
-  <rect x="800" y="1220" width="800" height="1" fill="#1A3A1F"/>
+  <!-- BAND 4: Data bar — charcoal bg -->
+  <rect x="0" y="1338" width="2400" height="260" fill="#1A2A1C"/>
+  <rect x="0" y="1338" width="2400" height="1" fill="#1A3A1F"/>
+  <rect x="0" y="1598" width="2400" height="1" fill="#1A3A1F"/>
   
-  <!-- Data row — centered -->
-  <text x="500" y="1360" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="28" fill="#5A7A3A" text-anchor="middle">Batch</text>
-  <text x="500" y="1410" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="36" letter-spacing="2" fill="#7A9A60" text-anchor="middle">SBL-260301</text>
+  <text x="350" y="1440" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="36" fill="#5A7A3A" text-anchor="middle">Batch</text>
+  <text x="350" y="1510" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="48" letter-spacing="3" fill="#7A9A60" text-anchor="middle">SBL-260301</text>
   
-  <text x="900" y="1360" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="28" fill="#5A7A3A" text-anchor="middle">Storage</text>
-  <text x="900" y="1410" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="36" fill="#7A9A60" text-anchor="middle">2-8°C</text>
+  <text x="900" y="1440" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="36" fill="#5A7A3A" text-anchor="middle">Storage</text>
+  <text x="900" y="1510" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="48" fill="#7A9A60" text-anchor="middle">2-8°C</text>
   
-  <text x="1300" y="1360" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="28" fill="#5A7A3A" text-anchor="middle">CAS</text>
-  <text x="1300" y="1410" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="36" letter-spacing="1" fill="#7A9A60" text-anchor="middle">137525-51-0</text>
+  <text x="1450" y="1440" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="36" fill="#5A7A3A" text-anchor="middle">CAS</text>
+  <text x="1450" y="1510" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="48" letter-spacing="2" fill="#7A9A60" text-anchor="middle">137525-51-0</text>
   
-  <text x="1800" y="1360" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="28" fill="#5A7A3A" text-anchor="middle">Purity</text>
-  <text x="1800" y="1410" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="36" fill="#7A9A60" text-anchor="middle">≥99%</text>
+  <text x="2000" y="1440" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="36" fill="#5A7A3A" text-anchor="middle">Purity</text>
+  <text x="2000" y="1510" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="48" fill="#B8E550" text-anchor="middle">≥99%</text>
   
-  <!-- Orbit element -->
-  <circle cx="1200" cy="1750" r="200" fill="none" stroke="#1A3A1F" stroke-width="1.5"/>
-  <circle cx="1200" cy="1750" r="120" fill="none" stroke="#1A3A1F" stroke-width="0.8"/>
-  <circle cx="1200" cy="1750" r="45" fill="none" stroke="#1A3A1F" stroke-width="0.5"/>
-  <circle cx="1200" cy="1750" r="6" fill="#B8E550" opacity="0.5"/>
-  <circle cx="1340" cy="1700" r="4" fill="#B8E550" opacity="0.3"/>
-  <circle cx="1080" cy="1640" r="4" fill="#B8E550" opacity="0.3"/>
-  <circle cx="1300" cy="1860" r="3" fill="#B8E550" opacity="0.25"/>
-  <circle cx="1070" cy="1830" r="3" fill="#B8E550" opacity="0.2"/>
+  <!-- Vertical dividers in data bar -->
+  <rect x="625" y="1388" width="1" height="160" fill="#1A3A1F"/>
+  <rect x="1175" y="1388" width="1" height="160" fill="#1A3A1F"/>
+  <rect x="1725" y="1388" width="1" height="160" fill="#1A3A1F"/>
   
-  <!-- Research disclaimer -->
-  <rect x="150" y="2050" width="2100" height="130" rx="10" fill="rgba(184,229,80,0.08)"/>
-  <rect x="150" y="2050" width="2100" height="130" rx="10" fill="none" stroke="#1A3A1F" stroke-width="0.8"/>
-  <text x="1200" y="2115" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="44" letter-spacing="4" fill="#B8E550" text-anchor="middle">FOR RESEARCH USE ONLY</text>
-  <text x="1200" y="2162" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="30" fill="#5A7A3A" text-anchor="middle">Not intended for human or veterinary use</text>
+  <!-- BAND 5: Orbit / spacer area -->
+  <rect x="0" y="1599" width="2400" height="440" fill="#0B1A0E"/>
   
-  <!-- Website -->
-  <text x="1200" y="2350" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="36" letter-spacing="3" fill="#3A5A20" text-anchor="middle">somabiolabs.com</text>
+  <circle cx="1200" cy="1820" r="170" fill="none" stroke="#1A3A1F" stroke-width="1.5"/>
+  <circle cx="1200" cy="1820" r="100" fill="none" stroke="#1A3A1F" stroke-width="0.8"/>
+  <circle cx="1200" cy="1820" r="35" fill="none" stroke="#1A3A1F" stroke-width="0.5"/>
+  <circle cx="1200" cy="1820" r="5" fill="#B8E550" opacity="0.5"/>
+  <circle cx="1320" cy="1780" r="4" fill="#B8E550" opacity="0.3"/>
+  <circle cx="1090" cy="1720" r="4" fill="#B8E550" opacity="0.3"/>
+  <circle cx="1280" cy="1910" r="3" fill="#B8E550" opacity="0.25"/>
+  <circle cx="1090" cy="1890" r="3" fill="#B8E550" opacity="0.2"/>
   
-  <!-- Socials row -->
-  <text x="1200" y="2410" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="24" letter-spacing="2" fill="#1A3A1F" text-anchor="middle">IG · X · TikTok  @somabiolabs</text>
+  <!-- BAND 6: Disclaimer bar — accent tinted -->
+  <rect x="0" y="2039" width="2400" height="200" fill="#111F14"/>
+  <rect x="0" y="2039" width="2400" height="1" fill="#1A3A1F"/>
+  <rect x="0" y="2239" width="2400" height="1" fill="#1A3A1F"/>
   
-  <!-- EU flag bottom -->
-  <text x="1200" y="2520" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="36" fill="#3A5A20" text-anchor="middle">🇪🇺</text>
+  <text x="1200" y="2130" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="56" letter-spacing="5" fill="#B8E550" text-anchor="middle">FOR RESEARCH USE ONLY</text>
+  <text x="1200" y="2195" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="36" fill="#5A7A3A" text-anchor="middle">Not intended for human or veterinary use</text>
+  
+  <!-- BAND 7: Footer — website + socials -->
+  <rect x="0" y="2240" width="2400" height="360" fill="#0B1A0E"/>
+  
+  <text x="1200" y="2380" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="42" letter-spacing="4" fill="#3A5A20" text-anchor="middle">somabiolabs.com</text>
+  <text x="1200" y="2440" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="30" letter-spacing="3" fill="#1A3A1F" text-anchor="middle">IG · X · TikTok  @somabiolabs</text>
+  
+  <!-- EU flag -->
+  <text x="1200" y="2540" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="40" fill="#3A5A20" text-anchor="middle">🇪🇺</text>
 </svg>
