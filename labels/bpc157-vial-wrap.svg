@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="900" viewBox="0 0 2400 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0B1A0E"/>
+      <stop offset="100%" style="stop-color:#0D200F"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="2400" height="900" rx="4" fill="url(#bg)"/>
+  
+  <!-- Subtle border -->
+  <rect x="2" y="2" width="2396" height="896" rx="3" fill="none" stroke="#1A3A1F" stroke-width="1.5"/>
+  
+  <!-- TOP ROW: Logo left + Trust badges right -->
+  
+  <!-- Logo icon -->
+  <g transform="translate(75, 70) scale(0.35)">
+    <rect x="-68" y="-80" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(-15 -42 -35)"/>
+    <rect x="16" y="-80" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(15 42 -35)"/>
+    <rect x="-68" y="0" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(-15 -42 45)"/>
+    <rect x="16" y="0" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(15 42 45)"/>
+  </g>
+  
+  <!-- SOMA BIOLABS next to icon -->
+  <text x="120" y="62" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="32" letter-spacing="8" fill="#B8E550">SOMA</text>
+  <text x="120" y="88" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="14" letter-spacing="6" fill="#5A7A3A">BIOLABS</text>
+  
+  <!-- Right side badges -->
+  <text x="2340" y="45" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="16" fill="#5A7A3A" text-anchor="end">Janoshik Tested · EU Quality · ≥99% Purity · COA Available</text>
+  <text x="2340" y="72" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="16" fill="#3A5A20" text-anchor="end">somabiolabs.com</text>
+  
+  <!-- Thin divider -->
+  <rect x="50" y="115" width="2300" height="1" fill="#1A3A1F"/>
+  
+  <!-- MAIN CONTENT AREA -->
+  
+  <!-- Product Name — left aligned, big -->
+  <text x="60" y="340" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="180" letter-spacing="4" fill="#F2F0EA">BPC-157</text>
+  
+  <!-- Dosage + type — below product name -->
+  <text x="65" y="440" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="72" fill="#B8E550">10mg</text>
+  <text x="280" y="440" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="44" fill="#5A7A3A">Lyophilized Powder</text>
+  
+  <!-- Right side — data column -->
+  <text x="1700" y="220" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="20" fill="#5A7A3A">Batch</text>
+  <text x="1700" y="252" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="28" letter-spacing="2" fill="#7A9A60">SBL-260301</text>
+  
+  <text x="1700" y="310" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="20" fill="#5A7A3A">CAS</text>
+  <text x="1700" y="342" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="28" letter-spacing="1" fill="#7A9A60">137525-51-0</text>
+  
+  <text x="2050" y="220" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="20" fill="#5A7A3A">Storage</text>
+  <text x="2050" y="252" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="28" fill="#7A9A60">2-8°C</text>
+  
+  <text x="2050" y="310" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="20" fill="#5A7A3A">Purity</text>
+  <text x="2050" y="342" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="28" fill="#7A9A60">≥99%</text>
+  
+  <!-- Vertical divider between product name and data -->
+  <rect x="1650" y="180" width="1" height="200" fill="#1A3A1F"/>
+  
+  <!-- BOTTOM: Research disclaimer bar -->
+  <rect x="0" y="700" width="2400" height="200" fill="rgba(184,229,80,0.05)"/>
+  <rect x="50" y="700" width="2300" height="1" fill="#1A3A1F"/>
+  
+  <text x="60" y="775" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="34" letter-spacing="3" fill="#B8E550">FOR RESEARCH USE ONLY</text>
+  <text x="60" y="815" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="22" fill="#5A7A3A">Not intended for human or veterinary use</text>
+  
+  <!-- EU flag bottom right -->
+  <text x="2340" y="810" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="28" fill="#3A5A20" text-anchor="end">🇪🇺</text>
+  
+  <!-- Accent line at very top -->
+  <rect x="0" y="0" width="2400" height="3" fill="#B8E550" opacity="0.6"/>
+</svg>
