@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2600" viewBox="0 0 2400 2600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0B1A0E"/>
+      <stop offset="100%" style="stop-color:#0D200F"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="2400" height="2600" fill="url(#bg)"/>
+  
+  <!-- Subtle border -->
+  <rect x="4" y="4" width="2392" height="2592" fill="none" stroke="#1A3A1F" stroke-width="2"/>
+  
+  <!-- Logo icon -->
+  <g transform="translate(200, 200) scale(0.8)">
+    <rect x="-68" y="-80" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(-15 -42 -35)"/>
+    <rect x="16" y="-80" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(15 42 -35)"/>
+    <rect x="-68" y="0" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(-15 -42 45)"/>
+    <rect x="16" y="0" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(15 42 45)"/>
+  </g>
+  
+  <!-- SOMA BIOLABS -->
+  <text x="310" y="185" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="64" letter-spacing="14" fill="#B8E550">SOMA</text>
+  <text x="310" y="230" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="28" letter-spacing="12" fill="#5A7A3A">BIOLABS</text>
+  
+  <!-- Divider -->
+  <rect x="120" y="320" width="2160" height="1" fill="#1A3A1F"/>
+  
+  <!-- Product Name — big and centered -->
+  <text x="1200" y="750" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="220" letter-spacing="6" fill="#F2F0EA" text-anchor="middle">BPC-157</text>
+  
+  <!-- Dosage -->
+  <text x="1200" y="900" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="80" fill="#B8E550" text-anchor="middle">10mg</text>
+  <text x="1200" y="970" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="40" fill="#5A7A3A" text-anchor="middle">Lyophilized Powder</text>
+  
+  <!-- Orbit element — centered -->
+  <circle cx="1200" cy="1400" r="280" fill="none" stroke="#1A3A1F" stroke-width="1.5"/>
+  <circle cx="1200" cy="1400" r="180" fill="none" stroke="#1A3A1F" stroke-width="0.8"/>
+  <circle cx="1200" cy="1400" r="80" fill="none" stroke="#1A3A1F" stroke-width="0.5"/>
+  <circle cx="1200" cy="1400" r="8" fill="#B8E550" opacity="0.5"/>
+  <circle cx="1380" cy="1340" r="5" fill="#B8E550" opacity="0.3"/>
+  <circle cx="1080" cy="1250" r="5" fill="#B8E550" opacity="0.3"/>
+  <circle cx="1320" cy="1520" r="4" fill="#B8E550" opacity="0.25"/>
+  <circle cx="1050" cy="1480" r="4" fill="#B8E550" opacity="0.2"/>
+  <circle cx="1450" cy="1450" r="3" fill="#B8E550" opacity="0.15"/>
+  <circle cx="980" cy="1350" r="3" fill="#B8E550" opacity="0.15"/>
+  
+  <!-- Bottom info row -->
+  <rect x="120" y="1800" width="2160" height="1" fill="#1A3A1F"/>
+  
+  <text x="300" y="1900" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="32" fill="#5A7A3A">Batch</text>
+  <text x="300" y="1950" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="40" letter-spacing="3" fill="#7A9A60">SBL-260301</text>
+  
+  <text x="800" y="1900" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="32" fill="#5A7A3A">Storage</text>
+  <text x="800" y="1950" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="40" fill="#7A9A60">2-8°C</text>
+  
+  <text x="1250" y="1900" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="32" fill="#5A7A3A">CAS</text>
+  <text x="1250" y="1950" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="40" letter-spacing="2" fill="#7A9A60">137525-51-0</text>
+  
+  <text x="1800" y="1900" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="32" fill="#5A7A3A">Purity</text>
+  <text x="1800" y="1950" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="40" fill="#7A9A60">≥99%</text>
+  
+  <!-- Research disclaimer -->
+  <rect x="120" y="2080" width="2160" height="120" rx="10" fill="rgba(184,229,80,0.08)"/>
+  <rect x="120" y="2080" width="2160" height="120" rx="10" fill="none" stroke="#1A3A1F" stroke-width="0.8"/>
+  <text x="1200" y="2135" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="40" letter-spacing="4" fill="#B8E550" text-anchor="middle">FOR RESEARCH USE ONLY</text>
+  <text x="1200" y="2178" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="28" fill="#5A7A3A" text-anchor="middle">Not intended for human or veterinary use</text>
+  
+  <!-- Website + socials -->
+  <text x="120" y="2400" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="32" letter-spacing="3" fill="#3A5A20">somabiolabs.com</text>
+  
+  <!-- EU flag -->
+  <text x="2280" y="2400" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="32" fill="#3A5A20" text-anchor="end">🇪🇺</text>
+</svg>
