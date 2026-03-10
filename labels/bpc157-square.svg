@@ -6,16 +6,16 @@
   <!-- BAND 2: Logo bar — slightly lighter bg -->
   <rect x="0" y="8" width="2400" height="280" fill="#0D200F"/>
   
-  <!-- Logo icon centered -->
-  <g transform="translate(1120, 130) scale(0.85)">
+  <!-- Logo icon — left of text, both centered as group -->
+  <g transform="translate(770, 155) scale(0.85)">
     <rect x="-68" y="-80" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(-15 -42 -35)"/>
     <rect x="16" y="-80" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(15 42 -35)"/>
     <rect x="-68" y="0" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(-15 -42 45)"/>
     <rect x="16" y="0" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(15 42 45)"/>
   </g>
   
-  <text x="1200" y="235" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="80" letter-spacing="18" fill="#B8E550" text-anchor="middle">SOMA</text>
-  <text x="1200" y="278" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="36" letter-spacing="16" fill="#5A7A3A" text-anchor="middle">BIOLABS</text>
+  <text x="880" y="165" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="80" letter-spacing="18" fill="#B8E550">SOMA</text>
+  <text x="880" y="215" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="36" letter-spacing="16" fill="#5A7A3A">BIOLABS</text>
   
   <!-- BAND 3: Main product area — darkest -->
   <rect x="0" y="288" width="2400" height="1050" fill="#0B1A0E"/>
