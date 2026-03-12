@@ -14,7 +14,7 @@
     <rect x="16" y="0" width="52" height="90" rx="26" fill="#B8E550" transform="rotate(15 42 45)"/>
   </g>
   
-  <text x="1060" y="210" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="130" letter-spacing="22" fill="#B8E550">SOMA</text>
+  <text x="1060" y="225" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="130" letter-spacing="22" fill="#B8E550">SOMA</text>
   <text x="1060" y="300" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="56" letter-spacing="20" fill="#5A7A3A">BIOLABS</text>
   
   <!-- BAND 3: Main product area -->
