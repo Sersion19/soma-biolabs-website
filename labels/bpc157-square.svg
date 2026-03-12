@@ -58,22 +58,25 @@
   
   <text x="1200" y="2390" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="52" letter-spacing="5" fill="#3A5A20" text-anchor="middle">somabiolabs.com</text>
   
-  <!-- Social icons row -->
-  <g transform="translate(1035, 2430)">
-    <rect x="0" y="0" width="36" height="36" rx="8" fill="none" stroke="#3A5A20" stroke-width="2.5"/>
-    <circle cx="18" cy="18" r="9" fill="none" stroke="#3A5A20" stroke-width="2.5"/>
-    <circle cx="28" cy="8" r="2.5" fill="#3A5A20"/>
+  <!-- Social icons row — bigger -->
+  <!-- IG icon -->
+  <g transform="translate(990, 2415)">
+    <rect x="0" y="0" width="52" height="52" rx="12" fill="none" stroke="#5A7A3A" stroke-width="3.5"/>
+    <circle cx="26" cy="26" r="13" fill="none" stroke="#5A7A3A" stroke-width="3.5"/>
+    <circle cx="40" cy="12" r="3.5" fill="#5A7A3A"/>
   </g>
   
-  <g transform="translate(1170, 2432)">
-    <path d="M0 0L8.7 11.7L0.3 21H2.7L9.9 13.2L15.75 21H22.5L13.35 8.55L21.3 0H18.9L12.15 7.05L6.75 0H0ZM3.75 1.5H6L18.75 19.5H16.5L3.75 1.5Z" fill="#3A5A20"/>
+  <!-- X icon -->
+  <g transform="translate(1170, 2417)">
+    <path d="M0 0L8.7 11.7L0.3 21H2.7L9.9 13.2L15.75 21H22.5L13.35 8.55L21.3 0H18.9L12.15 7.05L6.75 0H0ZM3.75 1.5H6L18.75 19.5H16.5L3.75 1.5Z" fill="#5A7A3A" transform="scale(2.3)"/>
   </g>
   
-  <g transform="translate(1305, 2430)">
-    <path d="M16 0v20a6.5 6.5 0 1 1-4.5-6.2V9.2A11 11 0 1 0 22 20V10a9 9 0 0 0 5.5 1.8V7.2A5.5 5.5 0 0 1 22 1.8V0H16z" fill="#3A5A20" transform="scale(1.1)"/>
+  <!-- TikTok icon -->
+  <g transform="translate(1335, 2415)">
+    <path d="M16 0v20a6.5 6.5 0 1 1-4.5-6.2V9.2A11 11 0 1 0 22 20V10a9 9 0 0 0 5.5 1.8V7.2A5.5 5.5 0 0 1 22 1.8V0H16z" fill="#5A7A3A" transform="scale(1.8)"/>
   </g>
   
-  <text x="1200" y="2510" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="40" letter-spacing="3" fill="#3A5A20" text-anchor="middle">@somabiolabs</text>
+  <text x="1200" y="2515" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="44" letter-spacing="3" fill="#5A7A3A" text-anchor="middle">@somabiolabs</text>
   
-  <text x="1200" y="2570" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="44" fill="#3A5A20" text-anchor="middle">🇪🇺</text>
+  <text x="1200" y="2570" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="500" font-size="32" letter-spacing="2" fill="#3A5A20" text-anchor="middle">Based in Spain 🇪🇺</text>
 </svg>
