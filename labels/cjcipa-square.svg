@@ -20,14 +20,15 @@
   <!-- BAND 3: Main product area -->
   <rect x="0" y="408" width="2400" height="1360" fill="#0B1A0E"/>
   
-  <!-- Product Name — centered in the space -->
-  <text x="1200" y="1030" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="200" letter-spacing="6" fill="#F2F0EA" text-anchor="middle">CJC-1295/Ipa</text>
+  <!-- Product Name — two lines -->
+  <text x="1200" y="940" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="280" letter-spacing="8" fill="#F2F0EA" text-anchor="middle">CJC-1295</text>
+  <text x="1200" y="1130" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="220" letter-spacing="6" fill="#F2F0EA" text-anchor="middle">Ipamorelin</text>
   
-  <!-- Dosage -->
-  <text x="1200" y="1280" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="220" fill="#B8E550" text-anchor="middle">10mg</text>
+  <!-- Dosage + Blend -->
+  <text x="1200" y="1310" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="180" fill="#B8E550" text-anchor="middle">10mg</text>
   
-  <!-- Lyophilized -->
-  <text x="1200" y="1420" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="90" fill="#5A7A3A" text-anchor="middle">Lyophilized Powder</text>
+  <!-- Blend + Lyophilized -->
+  <text x="1200" y="1430" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="90" fill="#5A7A3A" text-anchor="middle">Blend · Lyophilized Powder</text>
   
   <!-- BAND 4: Data bar -->
   <rect x="0" y="1768" width="2400" height="240" fill="#1A2A1C"/>
@@ -58,20 +59,17 @@
   
   <text x="1200" y="2390" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="52" letter-spacing="5" fill="#3A5A20" text-anchor="middle">somabiolabs.com</text>
   
-  <!-- Social icons row — bigger -->
-  <!-- IG icon -->
+  <!-- Social icons row -->
   <g transform="translate(990, 2415)">
     <rect x="0" y="0" width="52" height="52" rx="12" fill="none" stroke="#5A7A3A" stroke-width="3.5"/>
     <circle cx="26" cy="26" r="13" fill="none" stroke="#5A7A3A" stroke-width="3.5"/>
     <circle cx="40" cy="12" r="3.5" fill="#5A7A3A"/>
   </g>
   
-  <!-- X icon -->
   <g transform="translate(1170, 2417)">
     <path d="M0 0L8.7 11.7L0.3 21H2.7L9.9 13.2L15.75 21H22.5L13.35 8.55L21.3 0H18.9L12.15 7.05L6.75 0H0ZM3.75 1.5H6L18.75 19.5H16.5L3.75 1.5Z" fill="#5A7A3A" transform="scale(2.3)"/>
   </g>
   
-  <!-- TikTok icon -->
   <g transform="translate(1335, 2415)">
     <path d="M16 0v20a6.5 6.5 0 1 1-4.5-6.2V9.2A11 11 0 1 0 22 20V10a9 9 0 0 0 5.5 1.8V7.2A5.5 5.5 0 0 1 22 1.8V0H16z" fill="#5A7A3A" transform="scale(1.8)"/>
   </g>
