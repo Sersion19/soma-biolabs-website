@@ -21,13 +21,13 @@
   <rect x="0" y="408" width="2400" height="1360" fill="#0B1A0E"/>
   
   <!-- Product Name — centered in the space -->
-  <text x="1200" y="830" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="360" letter-spacing="8" fill="#F2F0EA" text-anchor="middle">BPC-157</text>
+  <text x="1200" y="930" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="360" letter-spacing="8" fill="#F2F0EA" text-anchor="middle">BPC-157</text>
   
   <!-- Dosage -->
-  <text x="1200" y="1080" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="220" fill="#B8E550" text-anchor="middle">10mg</text>
+  <text x="1200" y="1180" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="220" fill="#B8E550" text-anchor="middle">10mg</text>
   
   <!-- Lyophilized -->
-  <text x="1200" y="1220" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="90" fill="#5A7A3A" text-anchor="middle">Lyophilized Powder</text>
+  <text x="1200" y="1320" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="90" fill="#5A7A3A" text-anchor="middle">Lyophilized Powder</text>
   
   <!-- BAND 4: Data bar -->
   <rect x="0" y="1768" width="2400" height="240" fill="#1A2A1C"/>
