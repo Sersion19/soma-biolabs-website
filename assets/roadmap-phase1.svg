@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <style>
+      .floor { fill: #1A2A1C; }
+      .wall-left { fill: #0D200F; }
+      .wall-right { fill: #0B1A0E; }
+      .wall-front { fill: #122316; }
+      .roof { fill: #1A3A1F; }
+      .accent { fill: #B8E550; }
+      .accent-dim { fill: #5A7A3A; }
+      .window { fill: #2A4A2E; }
+      .window-glow { fill: #3A5A20; }
+      .shelf { fill: #1A3A1F; }
+      .vial { fill: #B8E550; }
+      .vial-dark { fill: #5A7A3A; }
+      .worker-body { fill: #F2F0EA; }
+      .worker-head { fill: #F2F0EA; }
+      .desk { fill: #2A3A2A; }
+      .screen { fill: #B8E550; opacity: 0.6; }
+      .text-main { fill: #F2F0EA; font-family: 'Inter', monospace; }
+      .text-accent { fill: #B8E550; font-family: 'Inter', monospace; }
+      .text-dim { fill: #5A7A3A; font-family: 'Inter', monospace; }
+      .grid { fill: none; stroke: #1A3A1F; stroke-width: 0.5; opacity: 0.3; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0B1A0E"/>
+  
+  <!-- Grid floor lines (isometric) -->
+  <g opacity="0.15">
+    <line x1="100" y1="420" x2="700" y2="420" stroke="#1A3A1F" stroke-width="0.5"/>
+    <line x1="100" y1="440" x2="700" y2="440" stroke="#1A3A1F" stroke-width="0.5"/>
+    <line x1="100" y1="460" x2="700" y2="460" stroke="#1A3A1F" stroke-width="0.5"/>
+    <line x1="100" y1="480" x2="700" y2="480" stroke="#1A3A1F" stroke-width="0.5"/>
+    <line x1="100" y1="500" x2="700" y2="500" stroke="#1A3A1F" stroke-width="0.5"/>
+  </g>
+  
+  <!-- === BUILDING: Small warehouse === -->
+  <!-- Floor shadow -->
+  <polygon points="200,400 450,400 500,430 250,430" fill="#0D200F" opacity="0.5"/>
+  
+  <!-- Left wall -->
+  <polygon points="200,200 200,400 250,430 250,230" class="wall-left"/>
+  
+  <!-- Right wall -->
+  <polygon points="200,200 450,200 500,230 250,230" class="wall-right"/>
+  
+  <!-- Front wall -->
+  <polygon points="450,200 450,400 500,430 500,230" class="wall-front"/>
+  
+  <!-- Front face -->
+  <polygon points="200,200 200,400 450,400 450,200" fill="#122316"/>
+  
+  <!-- Roof -->
+  <polygon points="190,200 460,200 510,225 240,225" class="roof"/>
+  <polygon points="190,195 460,195 460,200 190,200" class="accent"/>
+  
+  <!-- Door -->
+  <rect x="290" y="310" width="60" height="90" rx="2" fill="#0B1A0E"/>
+  <rect x="293" y="313" width="54" height="84" rx="1" fill="#1A2A1C"/>
+  <circle cx="340" cy="355" r="3" class="accent"/>
+  
+  <!-- Windows -->
+  <rect x="220" y="240" width="45" height="35" rx="2" class="window"/>
+  <rect x="222" y="242" width="41" height="31" rx="1" class="window-glow"/>
+  <line x1="242" y1="242" x2="242" y2="273" stroke="#1A3A1F" stroke-width="1"/>
+  
+  <rect x="380" y="240" width="45" height="35" rx="2" class="window"/>
+  <rect x="382" y="242" width="41" height="31" rx="1" class="window-glow"/>
+  <line x1="402" y1="242" x2="402" y2="273" stroke="#1A3A1F" stroke-width="1"/>
+  
+  <!-- Window glow effect -->
+  <rect x="222" y="242" width="20" height="31" fill="#B8E550" opacity="0.08"/>
+  <rect x="382" y="242" width="20" height="31" fill="#B8E550" opacity="0.08"/>
+  
+  <!-- SOMA sign on building -->
+  <rect x="285" y="220" width="80" height="22" rx="2" fill="#0B1A0E"/>
+  <text x="325" y="237" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="3" class="text-accent">SOMA</text>
+  
+  <!-- === INTERIOR DETAILS (visible through windows) === -->
+  
+  <!-- Shelving unit left -->
+  <g transform="translate(500, 280)">
+    <rect x="0" y="0" width="60" height="100" rx="2" fill="#1A2A1C"/>
+    <rect x="4" y="5" width="52" height="3" fill="#2A3A2A"/>
+    <rect x="4" y="25" width="52" height="3" fill="#2A3A2A"/>
+    <rect x="4" y="45" width="52" height="3" fill="#2A3A2A"/>
+    <rect x="4" y="65" width="52" height="3" fill="#2A3A2A"/>
+    <!-- Vials on shelves -->
+    <rect x="8" y="10" width="4" height="12" rx="1" class="vial"/>
+    <rect x="15" y="10" width="4" height="12" rx="1" class="vial"/>
+    <rect x="22" y="10" width="4" height="12" rx="1" class="vial-dark"/>
+    <rect x="29" y="10" width="4" height="12" rx="1" class="vial"/>
+    <rect x="36" y="10" width="4" height="12" rx="1" class="vial-dark"/>
+    <rect x="8" y="30" width="4" height="12" rx="1" class="vial-dark"/>
+    <rect x="15" y="30" width="4" height="12" rx="1" class="vial"/>
+    <rect x="22" y="30" width="4" height="12" rx="1" class="vial"/>
+    <rect x="29" y="30" width="4" height="12" rx="1" class="vial-dark"/>
+    <rect x="8" y="50" width="4" height="12" rx="1" class="vial"/>
+    <rect x="15" y="50" width="4" height="12" rx="1" class="vial-dark"/>
+    <rect x="22" y="50" width="4" height="12" rx="1" class="vial"/>
+  </g>
+  
+  <!-- Fridge -->
+  <g transform="translate(580, 300)">
+    <rect x="0" y="0" width="35" height="80" rx="3" fill="#2A3A2A"/>
+    <rect x="2" y="2" width="31" height="38" rx="2" fill="#1A2A1C"/>
+    <rect x="2" y="42" width="31" height="36" rx="2" fill="#1A2A1C"/>
+    <rect x="28" y="15" width="3" height="10" rx="1" fill="#5A7A3A"/>
+    <rect x="28" y="55" width="3" height="10" rx="1" fill="#5A7A3A"/>
+    <!-- Temperature display -->
+    <text x="17" y="25" text-anchor="middle" font-size="8" font-weight="700" class="text-accent">2°C</text>
+  </g>
+  
+  <!-- Desk with computer -->
+  <g transform="translate(500, 420)">
+    <rect x="0" y="0" width="80" height="5" rx="1" class="desk"/>
+    <rect x="10" y="-30" width="35" height="25" rx="2" fill="#1A2A1C"/>
+    <rect x="12" y="-28" width="31" height="21" rx="1" class="screen"/>
+    <rect x="23" y="-5" width="12" height="5" fill="#2A3A2A"/>
+  </g>
+  
+  <!-- === WORKERS (pixel-style) === -->
+  
+  <!-- Worker 1: at desk -->
+  <g transform="translate(520, 395)">
+    <rect x="0" y="0" width="12" height="16" rx="2" fill="#F2F0EA"/>
+    <rect x="1" y="-10" width="10" height="10" rx="5" fill="#F2F0EA"/>
+    <rect x="3" y="3" width="6" height="8" fill="#1A3A1F"/>
+  </g>
+  
+  <!-- Worker 2: at shelves -->
+  <g transform="translate(530, 350)">
+    <rect x="0" y="0" width="12" height="16" rx="2" fill="#F2F0EA"/>
+    <rect x="1" y="-10" width="10" height="10" rx="5" fill="#F2F0EA"/>
+    <rect x="3" y="3" width="6" height="8" fill="#1A3A1F"/>
+    <!-- Arm reaching for vial -->
+    <rect x="12" y="2" width="10" height="3" rx="1" fill="#F2F0EA"/>
+  </g>
+  
+  <!-- Worker 3: at door/shipping -->
+  <g transform="translate(350, 375)">
+    <rect x="0" y="0" width="12" height="16" rx="2" fill="#F2F0EA"/>
+    <rect x="1" y="-10" width="10" height="10" rx="5" fill="#F2F0EA"/>
+    <rect x="3" y="3" width="6" height="8" fill="#1A3A1F"/>
+    <!-- Carrying box -->
+    <rect x="-18" y="0" width="16" height="12" rx="2" fill="#5A7A3A"/>
+    <text x="-10" y="9" text-anchor="middle" font-size="5" fill="#B8E550">S</text>
+  </g>
+  
+  <!-- Shipping boxes near door -->
+  <g transform="translate(270, 405)">
+    <rect x="0" y="0" width="18" height="14" rx="2" fill="#2A3A2A"/>
+    <rect x="20" y="3" width="15" height="11" rx="2" fill="#1A2A1C"/>
+    <rect x="5" y="-12" width="14" height="12" rx="2" fill="#2A3A2A"/>
+  </g>
+  
+  <!-- === LABELS === -->
+  
+  <!-- Phase label -->
+  <text x="400" y="50" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="6" class="text-accent">PHASE 1</text>
+  <text x="400" y="75" text-anchor="middle" font-size="28" font-weight="700" letter-spacing="2" class="text-main">THE WAREHOUSE</text>
+  <text x="400" y="100" text-anchor="middle" font-size="12" letter-spacing="1" class="text-dim">QSC → Relabel → Ship · 3 Team Members</text>
+  
+  <!-- Status indicator -->
+  <g transform="translate(340, 530)">
+    <circle cx="0" cy="0" r="4" fill="#B8E550"/>
+    <circle cx="0" cy="0" r="4" fill="#B8E550" opacity="0.5">
+      <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="12" y="4" font-size="12" font-weight="600" letter-spacing="2" class="text-accent">ACTIVE NOW</text>
+  </g>
+  
+  <!-- Decorative corner accents -->
+  <rect x="50" y="45" width="20" height="2" class="accent" opacity="0.3"/>
+  <rect x="50" y="45" width="2" height="20" class="accent" opacity="0.3"/>
+  <rect x="730" y="45" width="20" height="2" class="accent" opacity="0.3"/>
+  <rect x="748" y="45" width="2" height="20" class="accent" opacity="0.3"/>
+</svg>

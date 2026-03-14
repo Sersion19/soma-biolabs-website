@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <filter id="grey">
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0B1A0E"/>
+  
+  <g filter="url(#grey)" opacity="0.2">
+    
+    <!-- === MAIN COMPLEX === -->
+    
+    <!-- Building A: Synthesis Lab (tallest) -->
+    <polygon points="250,120 250,400 430,400 430,120" fill="#122316"/>
+    <polygon points="245,120 435,120 435,115 245,115" fill="#B8E550"/>
+    <!-- Floors -->
+    <line x1="250" y1="190" x2="430" y2="190" stroke="#1A3A1F" stroke-width="1"/>
+    <line x1="250" y1="260" x2="430" y2="260" stroke="#1A3A1F" stroke-width="1"/>
+    <line x1="250" y1="330" x2="430" y2="330" stroke="#1A3A1F" stroke-width="1"/>
+    <!-- Windows grid -->
+    <g>
+      <rect x="265" y="135" width="30" height="22" rx="2" fill="#3A5A20"/>
+      <rect x="310" y="135" width="30" height="22" rx="2" fill="#3A5A20"/>
+      <rect x="355" y="135" width="30" height="22" rx="2" fill="#2A4A2E"/>
+      <rect x="400" y="135" width="18" height="22" rx="2" fill="#3A5A20"/>
+      
+      <rect x="265" y="205" width="30" height="22" rx="2" fill="#2A4A2E"/>
+      <rect x="310" y="205" width="30" height="22" rx="2" fill="#3A5A20"/>
+      <rect x="355" y="205" width="30" height="22" rx="2" fill="#3A5A20"/>
+      <rect x="400" y="205" width="18" height="22" rx="2" fill="#2A4A2E"/>
+      
+      <rect x="265" y="275" width="30" height="22" rx="2" fill="#3A5A20"/>
+      <rect x="310" y="275" width="30" height="22" rx="2" fill="#2A4A2E"/>
+      <rect x="355" y="275" width="30" height="22" rx="2" fill="#3A5A20"/>
+      <rect x="400" y="275" width="18" height="22" rx="2" fill="#3A5A20"/>
+      
+      <rect x="265" y="345" width="30" height="22" rx="2" fill="#2A4A2E"/>
+      <rect x="310" y="345" width="30" height="22" rx="2" fill="#3A5A20"/>
+      <rect x="355" y="345" width="30" height="22" rx="2" fill="#2A4A2E"/>
+      <rect x="400" y="345" width="18" height="22" rx="2" fill="#3A5A20"/>
+    </g>
+    <!-- Main entrance -->
+    <rect x="310" y="360" width="50" height="40" rx="3" fill="#0B1A0E"/>
+    <text x="335" y="385" text-anchor="middle" font-size="8" font-weight="700" fill="#B8E550" font-family="Inter, sans-serif">SOMA</text>
+    
+    <!-- Big SOMA sign on top -->
+    <rect x="280" y="95" width="120" height="22" rx="3" fill="#0B1A0E"/>
+    <text x="340" y="111" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="5" fill="#B8E550" font-family="Inter, sans-serif">SOMA LABS</text>
+    
+    <!-- Building B: Manufacturing wing (left) -->
+    <polygon points="100,200 100,400 250,400 250,200" fill="#0D200F"/>
+    <polygon points="95,200 255,200 255,196 95,196" fill="#5A7A3A"/>
+    <rect x="115" y="220" width="25" height="20" rx="2" fill="#2A4A2E"/>
+    <rect x="155" y="220" width="25" height="20" rx="2" fill="#2A4A2E"/>
+    <rect x="195" y="220" width="25" height="20" rx="2" fill="#2A4A2E"/>
+    <rect x="115" y="280" width="25" height="20" rx="2" fill="#3A5A20"/>
+    <rect x="155" y="280" width="25" height="20" rx="2" fill="#3A5A20"/>
+    <rect x="195" y="280" width="25" height="20" rx="2" fill="#3A5A20"/>
+    <!-- Loading dock -->
+    <rect x="130" y="350" width="70" height="50" rx="2" fill="#0B1A0E"/>
+    <text x="165" y="380" text-anchor="middle" font-size="7" fill="#5A7A3A" font-family="Inter, sans-serif">LOADING</text>
+    
+    <!-- Building C: QC / R&D wing (right) -->
+    <polygon points="430,220 430,400 580,400 580,220" fill="#122316"/>
+    <polygon points="425,220 585,220 585,216 425,216" fill="#5A7A3A"/>
+    <rect x="445" y="240" width="25" height="20" rx="2" fill="#3A5A20"/>
+    <rect x="485" y="240" width="25" height="20" rx="2" fill="#3A5A20"/>
+    <rect x="525" y="240" width="25" height="20" rx="2" fill="#2A4A2E"/>
+    <rect x="445" y="300" width="25" height="20" rx="2" fill="#2A4A2E"/>
+    <rect x="485" y="300" width="25" height="20" rx="2" fill="#3A5A20"/>
+    <rect x="525" y="300" width="25" height="20" rx="2" fill="#3A5A20"/>
+    <rect x="475" y="350" width="50" height="45" rx="3" fill="#0B1A0E"/>
+    <text x="500" y="377" text-anchor="middle" font-size="7" fill="#B8E550" font-family="Inter, sans-serif">QC LAB</text>
+    
+    <!-- Building D: Warehouse (far right) -->
+    <polygon points="600,280 600,400 730,400 730,280" fill="#0D200F"/>
+    <polygon points="595,280 735,280 735,276 595,276" fill="#5A7A3A"/>
+    <rect x="615" y="300" width="30" height="25" rx="2" fill="#2A4A2E"/>
+    <rect x="665" y="300" width="30" height="25" rx="2" fill="#2A4A2E"/>
+    <rect x="625" y="350" width="60" height="45" rx="3" fill="#0B1A0E"/>
+    <text x="655" y="377" text-anchor="middle" font-size="7" fill="#5A7A3A" font-family="Inter, sans-serif">WAREHOUSE</text>
+    
+    <!-- Smokestacks / ventilation -->
+    <rect x="120" y="160" width="12" height="40" rx="2" fill="#1A2A1C"/>
+    <rect x="145" y="170" width="10" height="30" rx="2" fill="#1A2A1C"/>
+    
+    <!-- Connecting walkways -->
+    <rect x="250" y="280" width="0" height="0" fill="#1A3A1F"/>
+    
+    <!-- Parking lot / road -->
+    <rect x="80" y="410" width="670" height="30" rx="2" fill="#0D200F"/>
+    <line x1="80" y1="425" x2="750" y2="425" stroke="#1A3A1F" stroke-width="1" stroke-dasharray="10,8"/>
+    
+    <!-- Vehicles -->
+    <rect x="120" y="415" width="35" height="18" rx="3" fill="#2A3A2A"/>
+    <rect x="200" y="418" width="25" height="12" rx="2" fill="#1A2A1C"/>
+    <rect x="500" y="415" width="40" height="18" rx="3" fill="#2A3A2A"/>
+    <text x="520" y="428" text-anchor="middle" font-size="5" fill="#B8E550" font-family="Inter, sans-serif">SOMA</text>
+    <rect x="600" y="415" width="40" height="18" rx="3" fill="#2A3A2A"/>
+    <rect x="680" y="418" width="25" height="12" rx="2" fill="#1A2A1C"/>
+    
+    <!-- Workers scattered (30+) -->
+    <g>
+      <g transform="translate(310,370)"><rect width="6" height="10" rx="2" fill="#F2F0EA"/><rect x="-1" y="-6" width="8" height="6" rx="3" fill="#F2F0EA"/></g>
+      <g transform="translate(280,370)"><rect width="6" height="10" rx="2" fill="#F2F0EA"/><rect x="-1" y="-6" width="8" height="6" rx="3" fill="#F2F0EA"/></g>
+      <g transform="translate(350,375)"><rect width="6" height="10" rx="2" fill="#F2F0EA"/><rect x="-1" y="-6" width="8" height="6" rx="3" fill="#F2F0EA"/></g>
+      <g transform="translate(150,380)"><rect width="6" height="10" rx="2" fill="#F2F0EA"/><rect x="-1" y="-6" width="8" height="6" rx="3" fill="#F2F0EA"/></g>
+      <g transform="translate(180,375)"><rect width="6" height="10" rx="2" fill="#F2F0EA"/><rect x="-1" y="-6" width="8" height="6" rx="3" fill="#F2F0EA"/></g>
+      <g transform="translate(460,375)"><rect width="6" height="10" rx="2" fill="#F2F0EA"/><rect x="-1" y="-6" width="8" height="6" rx="3" fill="#F2F0EA"/></g>
+      <g transform="translate(500,380)"><rect width="6" height="10" rx="2" fill="#F2F0EA"/><rect x="-1" y="-6" width="8" height="6" rx="3" fill="#F2F0EA"/></g>
+      <g transform="translate(540,370)"><rect width="6" height="10" rx="2" fill="#F2F0EA"/><rect x="-1" y="-6" width="8" height="6" rx="3" fill="#F2F0EA"/></g>
+      <g transform="translate(640,375)"><rect width="6" height="10" rx="2" fill="#F2F0EA"/><rect x="-1" y="-6" width="8" height="6" rx="3" fill="#F2F0EA"/></g>
+      <g transform="translate(680,380)"><rect width="6" height="10" rx="2" fill="#F2F0EA"/><rect x="-1" y="-6" width="8" height="6" rx="3" fill="#F2F0EA"/></g>
+    </g>
+    
+    <!-- Fence -->
+    <line x1="60" y1="450" x2="760" y2="450" stroke="#1A3A1F" stroke-width="1"/>
+    <g>
+      <rect x="60" y="440" width="2" height="15" fill="#1A3A1F"/>
+      <rect x="120" y="440" width="2" height="15" fill="#1A3A1F"/>
+      <rect x="180" y="440" width="2" height="15" fill="#1A3A1F"/>
+      <rect x="240" y="440" width="2" height="15" fill="#1A3A1F"/>
+      <rect x="300" y="440" width="2" height="15" fill="#1A3A1F"/>
+      <rect x="360" y="440" width="2" height="15" fill="#1A3A1F"/>
+      <rect x="420" y="440" width="2" height="15" fill="#1A3A1F"/>
+      <rect x="480" y="440" width="2" height="15" fill="#1A3A1F"/>
+      <rect x="540" y="440" width="2" height="15" fill="#1A3A1F"/>
+      <rect x="600" y="440" width="2" height="15" fill="#1A3A1F"/>
+      <rect x="660" y="440" width="2" height="15" fill="#1A3A1F"/>
+      <rect x="720" y="440" width="2" height="15" fill="#1A3A1F"/>
+    </g>
+    
+  </g>
+  
+  <!-- Labels -->
+  <text x="400" y="50" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="6" fill="#5A7A3A" font-family="Inter, sans-serif" opacity="0.35">PHASE 3</text>
+  <text x="400" y="75" text-anchor="middle" font-size="28" font-weight="700" letter-spacing="2" fill="#F2F0EA" font-family="Inter, sans-serif" opacity="0.2">THE COMPLEX</text>
+  <text x="400" y="100" text-anchor="middle" font-size="12" letter-spacing="1" fill="#5A7A3A" font-family="Inter, sans-serif" opacity="0.2">Full Synthesis + QC + Distribution · 30+ Team</text>
+  
+  <!-- Lock icon -->
+  <g transform="translate(385, 520)" opacity="0.25">
+    <rect x="0" y="8" width="30" height="22" rx="3" fill="#5A7A3A"/>
+    <rect x="7" y="0" width="16" height="14" rx="8" fill="none" stroke="#5A7A3A" stroke-width="3"/>
+    <circle cx="15" cy="20" r="3" fill="#0B1A0E"/>
+  </g>
+  <text x="400" y="565" text-anchor="middle" font-size="11" font-weight="600" letter-spacing="2" fill="#5A7A3A" font-family="Inter, sans-serif" opacity="0.25">LONG TERM VISION</text>
+</svg>

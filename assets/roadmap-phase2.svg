@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <style>
+      .g { opacity: 0.3; }
+    </style>
+    <!-- Greyscale filter -->
+    <filter id="grey">
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0B1A0E"/>
+  
+  <g filter="url(#grey)" class="g">
+    
+    <!-- Grid floor -->
+    <g opacity="0.15">
+      <line x1="50" y1="420" x2="750" y2="420" stroke="#1A3A1F" stroke-width="0.5"/>
+      <line x1="50" y1="440" x2="750" y2="440" stroke="#1A3A1F" stroke-width="0.5"/>
+      <line x1="50" y1="460" x2="750" y2="460" stroke="#1A3A1F" stroke-width="0.5"/>
+      <line x1="50" y1="480" x2="750" y2="480" stroke="#1A3A1F" stroke-width="0.5"/>
+    </g>
+    
+    <!-- === MAIN LAB BUILDING === -->
+    <polygon points="100,180 100,400 420,400 420,180" fill="#122316"/>
+    <polygon points="90,180 430,180 430,175 90,175" fill="#B8E550"/>
+    
+    <!-- Second floor -->
+    <line x1="100" y1="280" x2="420" y2="280" stroke="#1A3A1F" stroke-width="1"/>
+    
+    <!-- Windows top row -->
+    <rect x="120" y="200" width="40" height="30" rx="2" fill="#2A4A2E"/>
+    <rect x="180" y="200" width="40" height="30" rx="2" fill="#2A4A2E"/>
+    <rect x="240" y="200" width="40" height="30" rx="2" fill="#2A4A2E"/>
+    <rect x="300" y="200" width="40" height="30" rx="2" fill="#2A4A2E"/>
+    <rect x="360" y="200" width="40" height="30" rx="2" fill="#2A4A2E"/>
+    
+    <!-- Windows bottom row -->
+    <rect x="120" y="300" width="40" height="30" rx="2" fill="#3A5A20"/>
+    <rect x="180" y="300" width="40" height="30" rx="2" fill="#3A5A20"/>
+    <rect x="240" y="300" width="40" height="30" rx="2" fill="#3A5A20"/>
+    <rect x="300" y="300" width="40" height="30" rx="2" fill="#3A5A20"/>
+    <rect x="360" y="300" width="40" height="30" rx="2" fill="#3A5A20"/>
+    
+    <!-- Main door -->
+    <rect x="230" y="340" width="60" height="60" rx="3" fill="#0B1A0E"/>
+    <rect x="233" y="343" width="54" height="54" rx="2" fill="#1A2A1C"/>
+    
+    <!-- SOMA sign -->
+    <rect x="200" y="155" width="120" height="25" rx="3" fill="#0B1A0E"/>
+    <text x="260" y="173" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="4" fill="#B8E550" font-family="Inter, sans-serif">SOMA LABS</text>
+    
+    <!-- === SIDE BUILDING: Cold storage === -->
+    <polygon points="440,250 440,400 560,400 560,250" fill="#0D200F"/>
+    <polygon points="435,250 565,250 565,245 435,245" fill="#5A7A3A"/>
+    <rect x="460" y="280" width="30" height="25" rx="2" fill="#2A4A2E"/>
+    <rect x="510" y="280" width="30" height="25" rx="2" fill="#2A4A2E"/>
+    <rect x="470" y="340" width="60" height="55" rx="3" fill="#1A2A1C"/>
+    <text x="500" y="372" text-anchor="middle" font-size="10" font-weight="700" fill="#B8E550" font-family="Inter, sans-serif">COLD</text>
+    <text x="500" y="384" text-anchor="middle" font-size="8" fill="#5A7A3A" font-family="Inter, sans-serif">STORAGE</text>
+    
+    <!-- === LYOPHILIZER UNIT === -->
+    <g transform="translate(580, 300)">
+      <rect x="0" y="0" width="70" height="100" rx="4" fill="#1A2A1C"/>
+      <rect x="5" y="5" width="60" height="40" rx="3" fill="#2A4A2E"/>
+      <circle cx="35" cy="25" r="12" fill="#0B1A0E" stroke="#B8E550" stroke-width="1.5"/>
+      <text x="35" y="29" text-anchor="middle" font-size="8" font-weight="700" fill="#B8E550" font-family="Inter, sans-serif">LYO</text>
+      <rect x="10" y="55" width="20" height="5" rx="1" fill="#5A7A3A"/>
+      <rect x="10" y="65" width="20" height="5" rx="1" fill="#5A7A3A"/>
+      <rect x="10" y="75" width="20" height="5" rx="1" fill="#B8E550"/>
+      <circle cx="55" cy="60" r="3" fill="#B8E550"/>
+      <circle cx="55" cy="72" r="3" fill="#5A7A3A"/>
+    </g>
+    
+    <!-- === HPLC MACHINE === -->
+    <g transform="translate(670, 320)">
+      <rect x="0" y="0" width="50" height="80" rx="3" fill="#1A2A1C"/>
+      <rect x="5" y="5" width="40" height="25" rx="2" fill="#0B1A0E"/>
+      <text x="25" y="22" text-anchor="middle" font-size="7" font-weight="700" fill="#B8E550" font-family="Inter, sans-serif">HPLC</text>
+      <rect x="8" y="40" width="8" height="30" rx="2" fill="#5A7A3A"/>
+      <rect x="20" y="45" width="8" height="25" rx="2" fill="#B8E550"/>
+      <rect x="32" y="42" width="8" height="28" rx="2" fill="#5A7A3A"/>
+    </g>
+    
+    <!-- === WORKERS (10) === -->
+    <!-- Lab coats = white bodies -->
+    <g>
+      <!-- Row of workers in lab -->
+      <g transform="translate(140, 355)"><rect width="8" height="12" rx="2" fill="#F2F0EA"/><rect x="-1" y="-8" width="10" height="8" rx="4" fill="#F2F0EA"/></g>
+      <g transform="translate(170, 355)"><rect width="8" height="12" rx="2" fill="#F2F0EA"/><rect x="-1" y="-8" width="10" height="8" rx="4" fill="#F2F0EA"/></g>
+      <g transform="translate(200, 360)"><rect width="8" height="12" rx="2" fill="#F2F0EA"/><rect x="-1" y="-8" width="10" height="8" rx="4" fill="#F2F0EA"/></g>
+      <g transform="translate(330, 355)"><rect width="8" height="12" rx="2" fill="#F2F0EA"/><rect x="-1" y="-8" width="10" height="8" rx="4" fill="#F2F0EA"/></g>
+      <g transform="translate(360, 360)"><rect width="8" height="12" rx="2" fill="#F2F0EA"/><rect x="-1" y="-8" width="10" height="8" rx="4" fill="#F2F0EA"/></g>
+      <g transform="translate(390, 355)"><rect width="8" height="12" rx="2" fill="#F2F0EA"/><rect x="-1" y="-8" width="10" height="8" rx="4" fill="#F2F0EA"/></g>
+      <!-- Workers in cold storage -->
+      <g transform="translate(480, 370)"><rect width="8" height="12" rx="2" fill="#F2F0EA"/><rect x="-1" y="-8" width="10" height="8" rx="4" fill="#F2F0EA"/></g>
+      <g transform="translate(520, 375)"><rect width="8" height="12" rx="2" fill="#F2F0EA"/><rect x="-1" y="-8" width="10" height="8" rx="4" fill="#F2F0EA"/></g>
+      <!-- Workers at machines -->
+      <g transform="translate(600, 375)"><rect width="8" height="12" rx="2" fill="#F2F0EA"/><rect x="-1" y="-8" width="10" height="8" rx="4" fill="#F2F0EA"/></g>
+      <g transform="translate(690, 375)"><rect width="8" height="12" rx="2" fill="#F2F0EA"/><rect x="-1" y="-8" width="10" height="8" rx="4" fill="#F2F0EA"/></g>
+    </g>
+    
+    <!-- Shipping truck -->
+    <g transform="translate(80, 380)">
+      <rect x="0" y="0" width="50" height="25" rx="3" fill="#2A3A2A"/>
+      <rect x="50" y="8" width="20" height="17" rx="2" fill="#1A2A1C"/>
+      <circle cx="15" cy="28" r="5" fill="#1A3A1F"/>
+      <circle cx="40" cy="28" r="5" fill="#1A3A1F"/>
+      <text x="25" y="16" text-anchor="middle" font-size="6" fill="#B8E550" font-family="Inter, sans-serif">SOMA</text>
+    </g>
+    
+  </g>
+  
+  <!-- Labels (outside greyscale filter) -->
+  <text x="400" y="50" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="6" fill="#5A7A3A" font-family="Inter, sans-serif" opacity="0.5">PHASE 2</text>
+  <text x="400" y="75" text-anchor="middle" font-size="28" font-weight="700" letter-spacing="2" fill="#F2F0EA" font-family="Inter, sans-serif" opacity="0.3">THE LABORATORY</text>
+  <text x="400" y="100" text-anchor="middle" font-size="12" letter-spacing="1" fill="#5A7A3A" font-family="Inter, sans-serif" opacity="0.3">Own Lyophilization + HPLC · 10 Team Members</text>
+  
+  <!-- Lock icon -->
+  <g transform="translate(385, 520)" opacity="0.4">
+    <rect x="0" y="8" width="30" height="22" rx="3" fill="#5A7A3A"/>
+    <rect x="7" y="0" width="16" height="14" rx="8" fill="none" stroke="#5A7A3A" stroke-width="3"/>
+    <circle cx="15" cy="20" r="3" fill="#0B1A0E"/>
+  </g>
+  <text x="400" y="565" text-anchor="middle" font-size="11" font-weight="600" letter-spacing="2" fill="#5A7A3A" font-family="Inter, sans-serif" opacity="0.4">COMING SOON</text>
+</svg>
